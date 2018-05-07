@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+iframe {
+	z-index: -1;
+	opacity: 0.9;
+}
+
+.mainTitle-container{
+	position: absolute;
+	top: 60%;
+	left:  100px;
+}
+.mainTitle { 
+	font-size: 13vw;
+	color: #fff;
+	
+	font-family: roboto condensed;
+	text-transform: uppercase;
+	margin: 0;
+	
+	line-height: 6vw;
+}
+
+.mainTitle-subtitle {
+	font-size: 5vw;
+	text-transform: capitalize;
+}
+
+.scrollButton {
+	margin-right: 10px;
+}
+
+.sellingBox {
+	padding-top: 15vw;
+}
+
+.sellingBox-formSection {
+	padding-bottom:  15vw;
+}
+
+.sellingform-title {
+	margin-top: 2vw;
+} 
+
+.sellingform-subtitle{
+	margin-top: 1.5vw;
+}
+
+.availableCars-container {
+	min-height: 1400px;
+	background: #f0f0fc url(./bg-car.jpg) bottom center no-repeat;
+	padding-top: 100px;
+	padding-bottom: 850px;
+}
+
+.availableCars-title {
+	margin-bottom: 1.5vw;
+}
+
+.availableCars-container .container {
+	position: relative;
+}
+.availableCars-container .scrollButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
